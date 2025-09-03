@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  background-color: #e8e8e8;
+  display: flex;
+  overflow: hidden;
+}
+
+ol li{
+background-color: rgba(217, 167, 60, 0.721);
+margin: auto;
+width: 90%;}
+
+.L13-div {
+  margin: auto;
+  display: flex;
+  width: 25%;
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+}
+
+.div-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.div-menu a {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  margin-top: 2vw;
+  padding: 10px;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+
+.div-menu a:hover {
+  font-size: x-large;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  
+}
+
+.pato {
+  width: 40%;
+  padding-left: 10px;
+}
+
+ul,
+li {
+  list-style: none;
+   flex-wrap: wrap;
+  line-height: 50px;
+  font-size: large;
+}
+
+p {
+  
+  margin: 20px;
+  font-size: larger;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  margin: auto;
+  max-width: 90%;
+  
+}
+
+section h2 {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+hr{
+max-width: 90%;
+margin: auto;
+color: black;
+height: 3px;
+background-color: black;
+}
+
+table{
+max-width: 90%;
+margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+td, th{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+}
